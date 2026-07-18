@@ -121,10 +121,10 @@ const PublicNav: React.FC = () => {
 
       {isMobile && mobileOpen && (
         <div style={{
-          position: 'fixed', top: 54, left: 0, right: 0, bottom: 0,
+          position: 'fixed', top: 54, left: 0, right: 0, height: 'calc(100vh - 54px)',
           background: 'oklch(97% 0.01 75 / 0.97)', backdropFilter: 'blur(12px)',
           padding: '32px 24px', display: 'flex', flexDirection: 'column', gap: 24, zIndex: 99,
-          overflowY: 'auto',
+          overflowY: 'auto', WebkitOverflowScrolling: 'touch',
         }}>
           <Link to="/about" onClick={() => setMobileOpen(false)} style={{ fontSize: 18, fontWeight: 500, color: '#000', textDecoration: 'none' }}>About</Link>
           <Link to="/pricing" onClick={() => setMobileOpen(false)} style={{ fontSize: 18, fontWeight: 500, color: '#000', textDecoration: 'none' }}>Pricing</Link>

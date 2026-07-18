@@ -189,7 +189,7 @@ const Home: React.FC = () => {
         }}
       >
         <div>
-          <h1 style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(42px,5.6vw,84px)', lineHeight: 0.98, fontWeight: 600, margin: '18px 0 32px', letterSpacing: -1, width: 869, maxWidth: '100%' }}>
+          <h1 style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(42px,5.6vw,84px)', lineHeight: 0.98, fontWeight: 600, margin: '18px 0 32px', letterSpacing: -1, width: '100%', maxWidth: 869 }}>
             Stop paying for potential.<br />Start <span style={{ backgroundImage: 'linear-gradient(#FFD400, #FFD400)', backgroundRepeat: 'no-repeat', backgroundSize: '100% 0.42em', backgroundPosition: '0 82%', color: '#000', padding: '0 2px', fontStyle: 'normal' }}>closing</span>.
           </h1>
           <p style={{ fontSize: 20, lineHeight: 1.55, color: '#333', maxWidth: 520, margin: '0 0 44px' }}>
