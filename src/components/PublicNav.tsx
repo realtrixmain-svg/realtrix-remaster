@@ -39,9 +39,9 @@ const PublicNav: React.FC = () => {
 
   const linkColor = (path: string) => location.pathname === path ? '#000' : '#333'
 
-  const dropdownWrap: React.CSSProperties = { position: 'relative' }
+  const dropdownWrap: React.CSSProperties = { position: 'relative', paddingBottom: 8 }
   const dropdownMenu: React.CSSProperties = {
-    position: 'absolute', top: '100%', left: 0, marginTop: 8,
+    position: 'absolute', top: '100%', left: 0, marginTop: 0,
     background: '#fff', border: '1px solid #ddd', borderRadius: 6,
     padding: '8px 0', minWidth: 200, boxShadow: '0 8px 24px rgba(0,0,0,0.08)',
     zIndex: 200,
