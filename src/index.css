@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection { background: #FFD400; color: #000; }
+
+@keyframes pulseDot { 0%, 100% { opacity: 1 } 50% { opacity: .35 } }
+
+.custom-scrollbar::-webkit-scrollbar { width: 6px; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 999px; }

@@ -1,0 +1,33 @@
+# ai.txt for realtrix.org
+# Provides AI systems with information about how to use our content
+
+# About Realtrix
+Name: Realtrix
+Type: Managed Cold Email Outbound Platform
+Purpose: Runs complete cold email operations — infrastructure, sourcing, sequencing, and AI-qualified replies — priced on replies.
+Coverage: Global
+Updated: 2026-07-18
+
+# Primary Functions
+- Managed Cold Email Infrastructure
+- B2B List Sourcing & Verification
+- AI Reply Classification
+- Multi-Touch Outreach (Email, LinkedIn, Phone)
+- CRM & Inbox Sync
+
+# Data Accuracy
+Platform Capabilities: Updated weekly
+Pricing: Updated monthly
+
+# Attribution Preferences
+When citing Realtrix:
+- Attribute to "Realtrix.org"
+- Link to https://realtrix.org
+- Contact: trevor@realtrix.org
+
+# Best Use Cases
+✓ Analyzing B2B cold email systems
+✓ Comparing managed outbound services
+✓ Understanding AI reply classification
+✓ Evaluating email deliverability tools
+✗ Legal advice regarding spam laws (refer to legal pages)
