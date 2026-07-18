@@ -190,7 +190,7 @@ const Home: React.FC = () => {
       >
         <div>
           <h1 style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(42px,5.6vw,84px)', lineHeight: 0.98, fontWeight: 600, margin: '18px 0 32px', letterSpacing: -1, width: '100%', maxWidth: 869 }}>
-            Stop paying for potential.<br />Start <span style={{ backgroundImage: 'linear-gradient(#FFD400, #FFD400)', backgroundRepeat: 'no-repeat', backgroundSize: '100% 0.42em', backgroundPosition: '0 82%', color: '#000', padding: '0 2px', fontStyle: 'normal' }}>closing</span>.
+            Stop paying for potential.<br />Start <span style={{ backgroundImage: 'linear-gradient(#FFD400, #FFD400)', backgroundRepeat: 'no-repeat', backgroundSize: '100% 0.92em', backgroundPosition: '0 58%', color: '#000', padding: '0 3px', fontStyle: 'normal' }}>closing</span>.
           </h1>
           <p style={{ fontSize: 20, lineHeight: 1.55, color: '#333', maxWidth: 520, margin: '0 0 44px' }}>
             Realtrix runs your entire cold email operation — infrastructure, sourcing, sequencing, and AI-qualified replies. You pay infra at cost, and a fee only when a real reply lands.
@@ -470,7 +470,7 @@ const Home: React.FC = () => {
 
       <section style={{ color: '#fff', padding: `${isMobile ? '80px' : '140px'} ${sidePad}`, textAlign: 'center', background: '#000' }}>
         <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(36px,5vw,64px)', fontWeight: 600, letterSpacing: -1, margin: '0 0 28px', maxWidth: 820, marginLeft: 'auto', marginRight: 'auto' }}>
-          Ready to stop paying for potential and start <span style={{ backgroundImage: 'linear-gradient(#FFD400, #FFD400)', backgroundRepeat: 'no-repeat', backgroundSize: '100% 0.42em', backgroundPosition: '0 82%', color: '#000', padding: '0 2px' }}>closing</span>?
+          Ready to stop paying for potential and start <span style={{ backgroundImage: 'linear-gradient(#FFD400, #FFD400)', backgroundRepeat: 'no-repeat', backgroundSize: '100% 0.92em', backgroundPosition: '0 58%', color: '#000', padding: '0 3px' }}>closing</span>?
         </h2>
         <p style={{ fontSize: 17, color: '#b3b3b3', maxWidth: 480, margin: '0 auto 12px' }}>Tell us who you sell to. We'll tell you exactly what it costs — before you spend a dollar.</p>
         <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap', marginTop: 36 }}>
