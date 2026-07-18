@@ -49,9 +49,6 @@ const DeliverabilityConsulting: React.FC = () => {
       <PublicNav />
 
       <section style={{ padding: `${isMobile ? '100px' : '140px'} ${sidePad} ${isMobile ? '60px' : '80px'}`, maxWidth: 1200, margin: '0 auto', textAlign: 'center' }}>
-        <div style={{ display: 'inline-block', fontSize: 11, fontWeight: 700, letterSpacing: 1, color: '#000', textTransform: 'uppercase', marginBottom: 20, padding: '6px 14px', borderRadius: 999, background: 'rgba(255,212,0,0.25)' }}>
-          Spam Folder Rescue
-        </div>
         <h1 style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(36px,5vw,68px)', lineHeight: 0.98, fontWeight: 600, margin: '0 0 28px', letterSpacing: -1 }}>
           Email Deliverability Consulting
         </h1>

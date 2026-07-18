@@ -9,8 +9,8 @@ const bookCall = () => window.open(CAL_LINK, '_blank')
 
 const STEPS = [
   { num: '01', title: 'ICP Definition', desc: 'We define your ideal customer profile — industry, company size, title, geography, tech stack — before a single email is written.' },
-  { num: '02', title: 'Prospect Sourcing', desc: 'Verified contacts sourced from LinkedIn, Apollo, and proprietary databases. Every record validated for accuracy and deliverability.' },
-  { num: '03', title: 'Data Cleaning & Enrichment', desc: 'Names, titles, company data, LinkedIn URLs — enriched and deduplicated so every touchpoint is personal.' },
+  { num: '02', title: 'Prospect Sourcing', desc: 'Verified contacts sourced from professional networks and proprietary databases. Every record validated for accuracy and deliverability.' },
+  { num: '03', title: 'Data Cleaning & Enrichment', desc: 'Names, titles, company data, professional profile links — enriched and deduplicated so every touchpoint is personal.' },
   { num: '04', title: 'Campaign Launch', desc: 'Sequences deployed across authenticated domains with proper warmup, A/B testing, and send-time optimization.' },
   { num: '05', title: 'Reply Management & Handoff', desc: 'Every reply classified by AI. Meetings and qualified leads routed to your inbox or CRM. Noise filtered out.' },
 ]
@@ -60,9 +60,6 @@ const B2BLeadGen: React.FC = () => {
       <PublicNav />
 
       <section style={{ padding: `${isMobile ? '100px' : '140px'} ${sidePad} ${isMobile ? '60px' : '80px'}`, maxWidth: 1200, margin: '0 auto', textAlign: 'center' }}>
-        <div style={{ display: 'inline-block', fontSize: 11, fontWeight: 700, letterSpacing: 1, color: '#000', textTransform: 'uppercase', marginBottom: 20, padding: '6px 14px', borderRadius: 999, background: 'rgba(255,212,0,0.25)' }}>
-          Managed Campaign Package
-        </div>
         <h1 style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(36px,5vw,68px)', lineHeight: 0.98, fontWeight: 600, margin: '0 0 28px', letterSpacing: -1 }}>
           B2B Lead Generation
         </h1>

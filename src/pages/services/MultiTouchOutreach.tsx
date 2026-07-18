@@ -101,9 +101,6 @@ const MultiTouchOutreach: React.FC = () => {
       <PublicNav />
 
       <section style={{ padding: `${isMobile ? '100px' : '140px'} ${sidePad} ${isMobile ? '60px' : '80px'}`, maxWidth: 1200, margin: '0 auto', textAlign: 'center' }}>
-        <div style={{ display: 'inline-block', fontSize: 11, fontWeight: 700, letterSpacing: 1, color: '#000', textTransform: 'uppercase', marginBottom: 20, padding: '6px 14px', borderRadius: 999, background: 'rgba(255,212,0,0.25)' }}>
-          Enterprise Feature
-        </div>
         <h1 style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(36px,5vw,68px)', lineHeight: 0.98, fontWeight: 600, margin: '0 0 28px', letterSpacing: -1 }}>
           Multi-Touch Outreach
         </h1>
@@ -178,7 +175,6 @@ const MultiTouchOutreach: React.FC = () => {
 
       <section style={{ padding: `${isMobile ? '60px' : '100px'} ${sidePad}`, background: '#000' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto', textAlign: 'center' }}>
-          <div style={{ fontSize: 14, fontWeight: 700, letterSpacing: 1, color: '#FFD400', textTransform: 'uppercase', marginBottom: 16 }}>Same pricing model, every channel</div>
           <div style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(28px,3.5vw,44px)', fontWeight: 600, color: '#fff', marginBottom: 8, maxWidth: 760, marginLeft: 'auto', marginRight: 'auto', lineHeight: 1.25 }}>Infrastructure at cost. A fee only when a reply lands.</div>
           <p style={{ fontSize: 16, color: '#888', marginBottom: 48, maxWidth: 560, marginLeft: 'auto', marginRight: 'auto' }}>Adding phone and LinkedIn touches doesn't change how you're billed — no separate retainer for this service. <Link to="/pricing" style={{ color: '#FFD400', fontWeight: 600, textDecoration: 'underline' }}>See the full cost breakdown →</Link></p>
 

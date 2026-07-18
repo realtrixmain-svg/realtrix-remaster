@@ -20,7 +20,7 @@ const CARDS = [
   {
     tag: '03',
     title: 'Data & CRM',
-    items: ['Lead source integration (Apollo, LinkedIn, CSV)', 'CRM field mapping (HubSpot, Salesforce, Pipedrive)', 'Zapier / Make workflow automation', 'Data hygiene rules and deduplication'],
+    items: ['Lead source integration (data providers, professional networks, CSV)', 'CRM field mapping to your existing system', 'Workflow automation between platforms', 'Data hygiene rules and deduplication'],
     consequence: 'A bad CRM mapping means duplicate outreach to the same prospect from two reps, or a hot reply sitting unrouted in an inbox nobody checks — the setup is worthless if replies don’t land where your team actually works.',
   },
   {
@@ -46,7 +46,7 @@ const FAQS = [
   },
   {
     q: 'Can you integrate with my existing CRM?',
-    a: 'Yes — we’ve mapped fields and built workflows for HubSpot, Salesforce, and Pipedrive, plus custom integrations via Zapier or Make for anything else in your stack.',
+    a: 'Yes — we’ve mapped fields and built workflows for every major CRM, plus custom integrations for anything else in your stack.',
   },
   {
     q: 'What happens after setup is complete?',
@@ -99,7 +99,6 @@ const ColdEmailAutomationSetup: React.FC = () => {
       <PublicNav />
 
       <section style={{ padding: `${isMobile ? '100px' : '140px'} ${sidePad} ${isMobile ? '60px' : '80px'}`, maxWidth: 1200, margin: '0 auto', textAlign: 'center' }}>
-        <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: 1, color: '#D9A600', textTransform: 'uppercase', marginBottom: 20, textShadow: '0 1px 0 rgba(0,0,0,0.12),0 2px 4px rgba(217,166,0,0.35)' }}>Setup Service</div>
         <h1 style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(36px,5vw,68px)', lineHeight: 0.98, fontWeight: 600, margin: '0 0 28px', letterSpacing: -1 }}>
           Cold Email Automation Setup
         </h1>

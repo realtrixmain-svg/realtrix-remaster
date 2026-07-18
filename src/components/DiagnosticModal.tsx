@@ -101,8 +101,8 @@ const DiagnosticModal: React.FC = () => {
             { label: '15+ people', value: '20', tags: ['large_team'], score: 10, budgetVal: 50 },
         ] },
         { id: 'crm', text: 'Are you currently using a CRM?', options: [
-            { label: 'Yes (HubSpot / Salesforce)', value: 'pro', tags: ['tech_ready'], score: 8, budgetVal: 15 },
-            { label: 'Yes (Pipedrive / Other)', value: 'other', tags: ['tools_ready'], score: 6, budgetVal: 10 },
+            { label: 'Yes, an enterprise-grade CRM', value: 'pro', tags: ['tech_ready'], score: 8, budgetVal: 15 },
+            { label: 'Yes, a smaller CRM', value: 'other', tags: ['tools_ready'], score: 6, budgetVal: 10 },
             { label: 'Spreadsheets / Manual', value: 'manual', tags: ['needs_infra'], score: 2, budgetVal: 5 },
             { label: 'Not yet', value: 'none', tags: ['not_ready'], score: 0, budgetVal: 0 },
         ] },
@@ -146,14 +146,14 @@ const DiagnosticModal: React.FC = () => {
             { label: 'Just researching for now', value: 'research', tags: ['low_urgency'], score: 2, budgetVal: 5 },
         ] },
         { id: 'technical_skill', text: "Your team's technical comfort with sales tools?", options: [
-            { label: 'Very high (We love API/Clay)', value: 'expert', tags: ['tech_savvy'], score: 10, budgetVal: 10 },
+            { label: 'Very high (we love APIs & custom enrichment)', value: 'expert', tags: ['tech_savvy'], score: 10, budgetVal: 10 },
             { label: 'Average (We use standard CRM)', value: 'mid', tags: ['standard_tech'], score: 6, budgetVal: 5 },
             { label: 'Low (We want it done for us)', value: 'low', tags: ['dfy_focus'], score: 8, budgetVal: 20 },
         ] },
         { id: 'lead_source', text: 'How do you currently find your lead data?', options: [
-            { label: 'Apollo / SalesNav (Standard)', value: 'apollo', tags: ['standard_data'], score: 5, budgetVal: 5 },
-            { label: 'Clay / Custom Enrichment', value: 'clay', tags: ['pro_data'], score: 10, budgetVal: 15 },
-            { label: 'Fiverr / List Buying', value: 'fiverr', tags: ['bad_data'], score: -5, budgetVal: 0 },
+            { label: 'Standard data providers', value: 'apollo', tags: ['standard_data'], score: 5, budgetVal: 5 },
+            { label: 'Custom enrichment pipeline', value: 'clay', tags: ['pro_data'], score: 10, budgetVal: 15 },
+            { label: 'Freelance / purchased lists', value: 'fiverr', tags: ['bad_data'], score: -5, budgetVal: 0 },
             { label: 'Inbound only', value: 'inbound', tags: ['fresh_outbound'], score: 4, budgetVal: 5 },
         ] },
         { id: 'scaling_readiness', text: 'If you got 20 extra meetings next week, could you handle it?', options: [
@@ -582,7 +582,7 @@ const DiagnosticModal: React.FC = () => {
                                         <div className="grid grid-cols-2 gap-6 pt-6 border-t border-white/5">
                                             <div>
                                                 <p className="text-[10px] text-gray-600 font-black uppercase tracking-widest mb-1">Recommended Stack</p>
-                                                <p className="text-white font-bold text-xs">Clay + Instantly.ai</p>
+                                                <p className="text-white font-bold text-xs">Enrichment + Sending</p>
                                             </div>
                                             <div>
                                                 <p className="text-[10px] text-gray-600 font-black uppercase tracking-widest mb-1">Implementation</p>

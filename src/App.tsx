@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from 'react'
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop'
 import Home from './pages/Home'
 
@@ -45,10 +45,10 @@ const RouteFallback = () => (
   <div style={{ minHeight: '100vh', background: 'oklch(97% 0.01 75)' }} />
 )
 
-const App: React.FC = () => (
-  <BrowserRouter>
-    <ScrollToTop />
-    <Suspense fallback={<RouteFallback />}>
+const AnimatedRoutes: React.FC = () => {
+  const location = useLocation()
+  return (
+    <div key={location.pathname} className="page-transition">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -91,6 +91,15 @@ const App: React.FC = () => (
 
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
+    </div>
+  )
+}
+
+const App: React.FC = () => (
+  <BrowserRouter>
+    <ScrollToTop />
+    <Suspense fallback={<RouteFallback />}>
+      <AnimatedRoutes />
     </Suspense>
   </BrowserRouter>
 )

@@ -67,7 +67,6 @@ const DoneForYou: React.FC = () => {
       <PublicNav />
 
       <section style={{ padding: `${isMobile ? '100px' : '140px'} ${sidePad} ${isMobile ? '60px' : '80px'}`, maxWidth: 1200, margin: '0 auto', textAlign: 'center' }}>
-        <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: 1, color: '#D9A600', textTransform: 'uppercase', marginBottom: 20, textShadow: '0 1px 0 rgba(0,0,0,0.12),0 2px 4px rgba(217,166,0,0.35)' }}>Done-For-You Service</div>
         <h1 style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(36px,5vw,68px)', lineHeight: 0.98, fontWeight: 600, margin: '0 0 28px', letterSpacing: -1 }}>
           Done-For-You Cold Email Systems
         </h1>

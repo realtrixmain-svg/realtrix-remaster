@@ -18,29 +18,6 @@ const CALC_TOOLS = [
   { title: 'TAM Estimator', desc: 'Estimate your total addressable market by industry, size, and region.', to: '/tools/tam-estimator' },
 ]
 
-const STACK = [
-  {
-    category: 'Email Sending',
-    items: [
-      { name: 'Instantly.ai', role: 'Primary sending platform' },
-      { name: 'Smartlead', role: 'Secondary sending & rotation' },
-    ],
-  },
-  {
-    category: 'Data & Prospecting',
-    items: [
-      { name: 'Apollo.io', role: 'Contact sourcing & enrichment' },
-    ],
-  },
-  {
-    category: 'Verification',
-    items: [
-      { name: 'NeverBounce', role: 'Email verification & list cleaning' },
-      { name: 'ZeroBounce', role: 'Secondary verification & abuse detection' },
-    ],
-  },
-]
-
 const Tools: React.FC = () => {
   const m = useIsMobile()
   const sidePad = m ? 20 : 40
@@ -106,25 +83,6 @@ const Tools: React.FC = () => {
               <div style={{ marginTop: 18, fontSize: 14, fontWeight: 600, color: '#8a6d00' }}>Open tool →</div>
             </Link>
           ))}
-        </div>
-      </section>
-
-      <section style={{ padding: `${m ? 50 : 80}px ${sidePad} ${m ? 60 : 100}px`, background: 'oklch(96% 0.035 95)' }}>
-        <div style={{ maxWidth: 1100, margin: '0 auto' }}>
-          <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(28px,3.5vw,42px)', fontWeight: 600, margin: '0 0 40px', letterSpacing: -0.5 }}>The Tool Stack</h2>
-          <div style={{ display: 'grid', gridTemplateColumns: m ? '1fr' : 'repeat(3, 1fr)', gap: m ? 32 : 28 }}>
-            {STACK.map((s) => (
-              <div key={s.category}>
-                <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: 1, color: '#D9A600', textTransform: 'uppercase', marginBottom: 16 }}>{s.category}</div>
-                {s.items.map((item) => (
-                  <div key={item.name} style={{ padding: '16px 0', borderTop: '1px solid #ddd' }}>
-                    <div style={{ fontFamily: "'Playfair Display',serif", fontSize: 18, fontWeight: 600 }}>{item.name}</div>
-                    <div style={{ fontSize: 14, color: '#555', marginTop: 4 }}>{item.role}</div>
-                  </div>
-                ))}
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
