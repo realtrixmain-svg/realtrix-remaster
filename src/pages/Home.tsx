@@ -468,6 +468,27 @@ const Home: React.FC = () => {
         <div style={{ textAlign: 'center', fontSize: 14, color: '#666', marginTop: 20 }}>— Kopano Mashona, KPRM Media</div>
       </section>
 
+      <section style={{ padding: `${isMobile ? '70px' : '110px'} ${sidePad}`, maxWidth: 1100, margin: '0 auto', borderTop: '1px solid oklch(90% 0.01 70)' }}>
+        <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', alignItems: 'center', justifyContent: 'center', gap: isMobile ? 28 : 0 }}>
+          {[['15', 'Meetings'], ['15', 'Days'], ['29%', 'Open Rate'], ['1.1%', 'Bounce Rate']].map(([val, label], i) => (
+            <React.Fragment key={label}>
+              {i > 0 && !isMobile && <div style={{ width: 1, height: 56, background: 'oklch(85% 0.01 70)', margin: '0 40px' }} />}
+              <div style={{ textAlign: 'center' }}>
+                <div style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(32px,4vw,48px)', fontWeight: 600 }}>{val}</div>
+                <div style={{ fontSize: 13, color: '#666', marginTop: 6 }}>{label}</div>
+              </div>
+            </React.Fragment>
+          ))}
+        </div>
+        <p style={{ maxWidth: 680, margin: '44px auto 0', textAlign: 'center', fontSize: 17, lineHeight: 1.6, color: '#333' }}>
+          The Realtrix team stood up a cold outbound system for Sitecraft, sourcing and verifying a fresh prospect list and handling every reply so their team only had to show up to the call.
+        </p>
+        <blockquote style={{ maxWidth: 680, margin: '36px auto 0', textAlign: 'center', fontFamily: "'Playfair Display',serif", fontSize: 'clamp(20px,2.4vw,26px)', fontWeight: 500, lineHeight: 1.5, color: '#000' }}>
+          "15 booked meetings in just over two weeks, with zero time spent on our end sourcing leads or writing follow-ups. Realtrix just handed us a calendar."
+        </blockquote>
+        <div style={{ textAlign: 'center', fontSize: 14, color: '#666', marginTop: 20 }}>— Daniel Reyes, Sitecraft</div>
+      </section>
+
       <section style={{ color: '#fff', padding: `${isMobile ? '80px' : '140px'} ${sidePad}`, textAlign: 'center', background: '#000' }}>
         <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: 'clamp(36px,5vw,64px)', fontWeight: 600, letterSpacing: -1, margin: '0 0 28px', maxWidth: 820, marginLeft: 'auto', marginRight: 'auto' }}>
           Ready to stop paying for potential and start <span style={{ backgroundImage: 'linear-gradient(#FFD400, #FFD400)', backgroundRepeat: 'no-repeat', backgroundSize: '100% 0.92em', backgroundPosition: '0 58%', color: '#000', padding: '0 3px' }}>closing</span>?
