@@ -504,6 +504,7 @@ const Home: React.FC = () => {
         <p style={{ maxWidth: 680, margin: '44px auto 0', textAlign: 'center', fontSize: 17, lineHeight: 1.6, color: '#333' }}>
           Realtrix ran an outbound system for Sorted Virtual Assistance, targeting small, 1-2 person professional practices and generating 10 qualified leads inside the first month of sending.
         </p>
+        <div style={{ textAlign: 'center', fontSize: 14, color: '#666', marginTop: 20 }}>— Management, Sorted Virtual Assistance</div>
       </section>
 
       <section style={{ color: '#fff', padding: `${isMobile ? '80px' : '140px'} ${sidePad}`, textAlign: 'center', background: '#000' }}>
