@@ -3,7 +3,7 @@
   <!-- Core Pages -->
   <url>
     <loc>https://realtrix.org/</loc>
-    <lastmod>2026-07-18</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -183,7 +183,7 @@
   </url>
   <url>
     <loc>https://realtrix.org/legal/privacy</loc>
-    <lastmod>2026-07-18</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -195,7 +195,7 @@
   </url>
   <url>
     <loc>https://realtrix.org/legal/aup</loc>
-    <lastmod>2026-07-18</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -207,13 +207,13 @@
   </url>
   <url>
     <loc>https://realtrix.org/legal/ai-policy</loc>
-    <lastmod>2026-07-18</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://realtrix.org/legal/cookies</loc>
-    <lastmod>2026-07-18</lastmod>
+    <lastmod>2026-10-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

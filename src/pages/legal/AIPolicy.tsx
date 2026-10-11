@@ -43,7 +43,7 @@ const AIPolicy: React.FC = () => (
     </ul>
 
     <h3>5. Data Used to Train and Improve AI</h3>
-    <p>We use anonymized, aggregated interaction data to improve our AI models. This data is stripped of personally identifiable information and cannot be used to identify individual recipients or senders. You may opt out of having your campaign data used for model training by contacting <a href="mailto:ai@realtrix.io">ai@realtrix.io</a>.</p>
+    <p>We use anonymized, aggregated interaction data to improve our AI models. This data is stripped of personally identifiable information and cannot be used to identify individual recipients or senders. You may opt out of having your campaign data used for model training by contacting <a href="mailto:trevor@realtrix.org">trevor@realtrix.org</a>.</p>
     <p>We do not use your specific campaign data, prospect lists, or email content to train models for other clients. Your data stays yours.</p>
 
     <h3>6. No Guarantee of Outcomes</h3>
@@ -54,7 +54,7 @@ const AIPolicy: React.FC = () => (
     <p>We continuously improve our AI systems through model updates, training data refreshes, and algorithm improvements. These updates may temporarily affect classification accuracy as the model adjusts. We communicate significant AI updates through release notes and will notify you in advance of changes that may materially affect your campaigns.</p>
 
     <h3>8. Contact</h3>
-    <p>For questions about our AI systems, accuracy concerns, or to report a classification error, contact <a href="mailto:ai@realtrix.io">ai@realtrix.io</a>.</p>
+    <p>For questions about our AI systems, accuracy concerns, or to report a classification error, contact <a href="mailto:trevor@realtrix.org">trevor@realtrix.org</a>.</p>
   </LegalLayout>
 )
 

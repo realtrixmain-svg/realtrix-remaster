@@ -1,0 +1,25 @@
+# Realtrix
+
+> Realtrix runs a complete managed cold email outbound operation for B2B SaaS and automation companies: infrastructure, list sourcing, sequencing, and AI-qualified replies. Infrastructure is billed at cost, with a fee only when a real reply lands.
+
+Canonical site: https://realtrix.org
+Contact: trevor@realtrix.org
+
+## Services
+- [Done-For-You Cold Email](https://realtrix.org/services/done-for-you-cold-email): Domain setup, list building, copywriting, and inbox management.
+- [Cold Email Automation Setup](https://realtrix.org/services/cold-email-automation-setup): DNS, warmup, CRM integration, and sequence templates.
+- [Email Deliverability Consulting](https://realtrix.org/services/email-deliverability-consulting): DNS audit, sender reputation recovery, and inbox placement.
+- [B2B Lead Generation](https://realtrix.org/services/b2b-lead-generation): ICP definition, prospect sourcing, enrichment, and reply management.
+- [Multi-Touch Outreach](https://realtrix.org/services/multi-touch-outreach): Email, phone, and LinkedIn in one coordinated cadence.
+
+## Tools
+- [ROI Calculator](https://realtrix.org/tools/roi-calculator)
+- [Benchmark Checker](https://realtrix.org/tools/benchmark-checker)
+- [TAM Estimator](https://realtrix.org/tools/tam-estimator)
+- [Readiness Quiz](https://realtrix.org/readiness-quiz)
+
+## Guides
+- [Outreach hub](https://realtrix.org/outreach): Practical guides on subject lines, follow-up timing, personalization, inbox placement, domain warmup, and reply handling.
+
+## Policies
+- [Legal hub](https://realtrix.org/legal)

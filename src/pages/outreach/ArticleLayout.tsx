@@ -29,6 +29,8 @@ const ArticleLayout: React.FC<ArticleLayoutProps> = ({ title, description, canon
     headline: title,
     description,
     url: `https://realtrix.org${canonical}`,
+    mainEntityOfPage: `https://realtrix.org${canonical}`,
+    image: 'https://realtrix.org/og-default.png',
     author: { '@type': 'Organization', name: 'Realtrix' },
     publisher: { '@type': 'Organization', name: 'Realtrix', logo: { '@type': 'ImageObject', url: 'https://realtrix.org/logo.png' } },
   }

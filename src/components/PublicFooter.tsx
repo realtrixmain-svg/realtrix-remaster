@@ -43,6 +43,7 @@ const PublicFooter: React.FC = () => {
         <div style={{ display: 'flex', gap: 24, fontSize: 13 }}>
           <Link to="/legal/privacy" style={{ textDecoration: 'none', color: '#555' }}>Privacy</Link>
           <Link to="/legal/terms" style={{ textDecoration: 'none', color: '#555' }}>Terms</Link>
+          <button onClick={() => window.dispatchEvent(new Event('open-cookie-settings'))} style={{ background: 'none', border: 0, padding: 0, font: 'inherit', color: '#555', cursor: 'pointer' }}>Cookie Settings</button>
         </div>
       </div>
     </footer>

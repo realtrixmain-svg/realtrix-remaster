@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from 'react'
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop'
+import ConsentBanner from './components/ConsentBanner'
 import Home from './pages/Home'
 
 const About = lazy(() => import('./pages/About'))
@@ -98,6 +99,7 @@ const AnimatedRoutes: React.FC = () => {
 const App: React.FC = () => (
   <BrowserRouter>
     <ScrollToTop />
+    <ConsentBanner />
     <Suspense fallback={<RouteFallback />}>
       <AnimatedRoutes />
     </Suspense>

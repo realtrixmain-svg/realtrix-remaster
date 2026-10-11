@@ -529,7 +529,7 @@ const Home: React.FC = () => {
         <div style={{ display: 'flex', gap: 64, flexWrap: 'wrap' }}>
           <div>
             <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: 1, color: '#555', textTransform: 'uppercase', marginBottom: 14 }}>Product</div>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 10, fontSize: 14 }}><a href="#engine" style={{ textDecoration: 'none' }}>Reply Engine</a><a href="#pricing" style={{ textDecoration: 'none' }}>Cost Model</a><a href="#how" style={{ textDecoration: 'none' }}>How it Works</a></div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 10, fontSize: 14 }}><a href="#engine" style={{ textDecoration: 'none' }}>Reply Engine</a><a href="#pricing" style={{ textDecoration: 'none' }}>Cost Model</a><a href="#how" style={{ textDecoration: 'none' }}>How it Works</a><Link to="/services/done-for-you-cold-email" style={{ textDecoration: 'none', color: 'inherit' }}>Done-For-You</Link><Link to="/services/cold-email-automation-setup" style={{ textDecoration: 'none', color: 'inherit' }}>Cold Email Setup</Link><Link to="/services/email-deliverability-consulting" style={{ textDecoration: 'none', color: 'inherit' }}>Deliverability</Link><Link to="/services/b2b-lead-generation" style={{ textDecoration: 'none', color: 'inherit' }}>B2B Lead Gen</Link><Link to="/services/multi-touch-outreach" style={{ textDecoration: 'none', color: 'inherit' }}>Multi-Touch</Link><Link to="/tools" style={{ textDecoration: 'none', color: 'inherit' }}>Tools</Link></div>
           </div>
           <div>
             <div style={{ fontSize: 11, fontWeight: 700, letterSpacing: 1, color: '#555', textTransform: 'uppercase', marginBottom: 14 }}>Company</div>

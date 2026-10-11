@@ -61,7 +61,7 @@ const AcceptableUsePolicy: React.FC = () => (
     <p>Violations result in a warning for first offenses, temporary suspension for repeated violations, and permanent termination for severe or persistent violations. We may bypass the warning stage for severe violations such as sending prohibited content or deliberately evading spam controls.</p>
 
     <h3>7. Reporting Violations</h3>
-    <p>If you become aware of any violation of this policy, report it to <a href="mailto:abuse@realtrix.io">abuse@realtrix.io</a>. All reports are investigated promptly and confidentially.</p>
+    <p>If you become aware of any violation of this policy, report it to <a href="mailto:abuse@realtrix.org">abuse@realtrix.org</a>. All reports are investigated promptly and confidentially.</p>
   </LegalLayout>
 )
 
