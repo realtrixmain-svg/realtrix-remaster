@@ -36,6 +36,7 @@ const ReadinessQuiz: React.FC = () => {
     const [company, setCompany] = useState('')
     const [email, setEmail] = useState('')
     const [submitting, setSubmitting] = useState(false)
+    const [agreed, setAgreed] = useState(false)
 
     useEffect(() => {
         document.title = 'System Readiness Quiz | Realtrix'
@@ -300,7 +301,7 @@ const ReadinessQuiz: React.FC = () => {
     const report = generateReport()
 
     const handleSubmitCapture = async () => {
-        if (!email) return
+        if (!email || !agreed) return
         setSubmitting(true)
 
         const emailHtml = `
@@ -581,9 +582,13 @@ const ReadinessQuiz: React.FC = () => {
                                             value={email}
                                             onChange={(e) => setEmail(e.target.value)}
                                         />
+                                        <label className="flex items-start gap-3 mt-4 text-sm text-gray-400 cursor-pointer">
+                                            <input type="checkbox" checked={agreed} onChange={(e) => setAgreed(e.target.checked)} className="mt-1 h-4 w-4 shrink-0 accent-[#FFD400]" />
+                                            <span>I agree to Realtrix processing my details to generate my report and follow up about its services, as described in the <a href="/legal/privacy" target="_blank" rel="noopener noreferrer" className="text-white underline">Privacy Policy</a>.</span>
+                                        </label>
                                         <button
                                             onClick={handleSubmitCapture}
-                                            disabled={!email || submitting}
+                                            disabled={!email || !agreed || submitting}
                                             className="w-full mt-4 bg-accent text-black font-black px-12 py-5 rounded-2xl hover:bg-[#FFDE59] transition-all text-xl disabled:opacity-50 disabled:cursor-not-allowed shadow-[0_20px_50px_rgba(255,212,0,0.15)] flex items-center justify-center gap-3"
                                         >
                                             {submitting ? <Loader2 className="animate-spin" size={24} /> : null}

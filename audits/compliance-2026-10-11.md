@@ -21,4 +21,4 @@ Date: 2026-10-11. Tier: brochure + one lead form (quiz) = cookie banner. Not att
 ## Open (needs Trevor)
 - Privacy Policy has no POPIA Information Officer / Information Regulator wording or named legal entity. Left as-is, flagged.
 - Terms/Billing/AUP/AI policy not re-audited this pass.
-- Quiz form collects personal data with no explicit consent checkbox (brochure-tier banner does not cover it). Consider clickwrap on the quiz.
+- RESOLVED 2026-10-11: quiz now has a required consent checkbox linking the Privacy Policy.
