@@ -5,7 +5,7 @@ Date: 2026-10-11. Tier: brochure + one lead form (quiz) = cookie banner. Not att
 ## What the site actually stores / sends
 | Item | Where | When | Disclosed |
 |---|---|---|---|
-| Google Analytics `_ga`, `_ga_L3FSEFCX8C` (G-L3FSEFCX8C) | cookie | only after Accept (Consent Mode v2, default denied) | Cookie + Privacy Policy |
+| Google Analytics `_ga`, `_ga_L3FSEFCX8C` (G-L3FSEFCX8C) | cookie | only after Accept (script not loaded before consent) | Cookie + Privacy Policy |
 | `realtrix_consent` | localStorage | on banner choice | Cookie Policy |
 | `realtrix_diagnostic_dismissed` | sessionStorage | on modal close | Cookie Policy |
 | Quiz name/email/company/answers | POST to Make.com webhook | on quiz submit | Privacy Policy (added) |

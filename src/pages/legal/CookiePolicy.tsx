@@ -13,7 +13,7 @@ const CookiePolicy: React.FC = () => (
     <p>Cookies can be "session cookies" (deleted when you close your browser) or "persistent cookies" (remaining on your device until they expire or are deleted). We use both types across our website.</p>
 
     <h3>2. How We Use Cookies</h3>
-    <p>We keep this to the minimum. Our site sets no advertising or marketing cookies. The only cookies come from Google Analytics, and they are set only after you click Accept in the cookie banner. Until then, Google Analytics runs in a restricted mode with analytics storage denied.</p>
+    <p>We keep this to the minimum. Our site sets no advertising or marketing cookies. The only cookies come from Google Analytics, and they are set only after you click Accept in the cookie banner. Until then, Google Analytics is not loaded at all and nothing is sent to Google for analytics.</p>
 
     <h3>3. What Is Stored on Your Device</h3>
     <ul>
